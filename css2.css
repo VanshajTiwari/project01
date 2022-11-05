@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F0F2F5;
+    font-family: sans-serif;
+}
+
+._main {
+    margin: auto;
+    width: 1400px;
+    height: 600px;
+}
+
+#leftnav {
+    margin: 200px 0px 0px 220px;
+    float: left;
+    font-size: 25px;
+}
+
+#rightnav {
+    background-position: fixed;
+    background-color: white;
+    width: 410px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(194, 199, 205)
+}
+
+#header {
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+#leftnav {
+    float: left;
+    clear: right;
+    width: 34%;
+}
+
+#outright {
+    width: 410px;
+    float: right;
+    clear: both;
+    text-align: center;
+    margin-top: -12%;
+    margin-right: 14%;
+}
+
+.footer {
+    padding-top: 10px;
+    margin-top: 100px;
+    padding-bottom: 4%;
+    clear: both;
+
+    background-color: white;
+}
+
+.infoot {
+    margin: auto;
+    width: 68%;
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.foothr {
+
+    margin-top: 9px;
+    margin-bottom: 9px;
+    border: 0px;
+    box-shadow: 0px 0px 0px 0.5px #DDDFE2;
+}
+
+/*   
+green:#42B72A
+grey:#8A8D91
+
+*/
+#iname {
+    margin-top: 20px;
+}
+
+.input1 {
+    margin: 10px;
+    width: 93%;
+    padding: 12px;
+    box-shadow: 0px 0px 0px 1px #DDDFE2;
+    border-width: 0px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.input1:focus {
+    border: 1px solid #1877F2;
+    box-shadow: 1px 1px 5px #1877F2;
+}
+
+.logi {
+
+    width: 93%;
+    height: 50px;
+    background-color: #1877F2;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#forgt {
+    font-size: 17px;
+    margin-bottom: 10px;
+
+
+}
+
+#got {
+    color: #1877F2;
+    ;
+}
+
+#got:hover {
+    text-decoration: underline;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.cret {
+    background: #42B72A;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 13px 17px;
+
+    margin-top: 30px;
+}
+
+#hor {
+    margin: auto;
+    width: 90%;
+    border-width: 0px;
+    box-shadow: 0px 0px 0px 0.3px;
+}
+
+.para1 {
+    font-size: 13px;
+    margin-top: 5%;
+}
+
+.links {
+    color: #8A8D91;
+}
+
+#links {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 15px;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 1px;
+}
+
+@media only screen and (max-width:1211px) {
+    ._main {
+
+        margin: 0px;
+        height: 1000px;
+        width: 60%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    #header {
+        margin-left: 40px;
+    }
+
+    #leftnav {
+        margin-top: 8%;
+        margin-bottom: 30px;
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    #outright {
+        clear: both;
+        margin-left: 5%;
+        margin-right: 2%;
+        float: none;
+    }
+}
